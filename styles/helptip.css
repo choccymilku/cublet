@@ -1,0 +1,114 @@
+
+/*-------------
+Help-tip Style
+---------------*/
+.help-tip {
+  position: relative;
+  top: -2px;
+  //border: 1px solid red;
+}
+
+.help-tip::before { /*question sign*/
+  content: "❔";
+  position: absolute;
+  top: -2px; right: 0;
+  padding: .1em .4em;
+  font-weight: bold;
+  cursor: help; 
+  background: var(--helptip);
+  border-radius:3px;
+}
+
+.help-tip__content {
+  position: fixed;
+  top: -23em; right: -0.9em;
+  width: 18.35em;
+  background: var(--settings-color);
+  z-index: 2;
+  transform-origin: 50% 0%;
+  transform: scale(0);
+  transition: transform .3s ease;
+}
+
+.help-tip:hover .help-tip__content,
+.help-tip:focus .help-tip__content{
+  transform: scale(1);
+}
+
+
+/*-------------
+Help-tip Style
+---------------*/
+.help-tip2 {
+  position: relative;
+  top: -2px;
+  //border: 1px solid red;
+}
+
+.help-tip2::before { /*question sign*/
+  content: "❔";
+  position: absolute;
+  top: -2px; right: 0em;
+  padding: .1em .4em;
+  font-weight: bold;
+  cursor: help; 
+  background: var(--helptip);
+  border-radius:3px;
+}
+
+.help-tip2__content {
+  position: absolute;
+  top: 0em; right: -0.9em;
+  width: 18.35em;
+  background: var(--settings-color);
+  z-index: 2;
+  transform-origin: 50% 0%;
+  transform: scale(0);
+  transition: transform .3s ease;
+  border-radius:10px;
+  z-index:1020120;
+}
+
+
+.help-tip2:hover .help-tip2__content,
+.help-tip2:focus .help-tip2__content{
+  transform: scale(1);
+}
+
+/*-------------
+Help-tip Style
+---------------*/
+.help-tip3 {
+  position: relative;
+  top: .0em; right: 1.1em;
+  //border: 1px solid red;
+}
+
+.help-tip3::before { /*question sign*/
+  content: "❔";
+  position: absolute;
+  top: -2px; right: 0;
+  padding: .1em .4em;
+  font-weight: bold;
+  cursor: help; 
+  background: var(--helptip);
+  border-radius:3px;
+}
+
+.help-tip3__content {
+  position: absolute;
+  top: 3.15em; right: -1.875em;
+  width: 42.15em;
+  background: var(--settings-color);
+  z-index: 2;
+  transform-origin: 50% 0%;
+  transform: scale(0);
+  transition: transform .3s ease;
+  border-radius:30px;
+}
+
+
+.help-tip3:hover .help-tip3__content,
+.help-tip3:focus .help-tip3__content{
+  transform: scale(1);
+}

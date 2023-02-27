@@ -1,0 +1,241 @@
+/*navbar*/
+@media screen and (max-width: 10000px) {
+  /* UNDER 500px CSS here */
+  
+h5 {
+	font-size: 30px;
+}
+
+a {
+	font-size: 30px;
+}
+}
+@media screen and (max-width: 10000000px) {
+
+#gradient-text { margin-left:-20px;margin-top:-10px;margin-bottom:-5px; }
+#demo { font-size:20px;}
+#todayHTML {right:102px;font-size:25px;bottom:0px;top:-0px; }
+#toggle {height:44px;width:44px; }
+#hide-button3 {background-color: #16c716;}
+#show-button3 {background-color: #dc2d53;}
+#toggle3 {display:none;}
+#toggle2 {display:inline;}
+#tabsbutton {transition:0s;opacity:0;font-size:0px;padding-right:0rem;}
+#tabsbutton2 {transition:0s;opacity:0;font-size:0px;padding-right:0rem;}
+#navbar2 {padding-top:0.75rem}
+#navbarbottom {display:none;}
+#aboutarrow {opacity:0;margin-left:0px;margin-right:0px;margin-top:0px;height:0px;}
+#aboutarrow2 {opacity:0;margin-left:0px;margin-right:0px;margin-top:0px;height:0px;}
+#friendsarrow {opacity:0;margin-left:0px;margin-right:0px;margin-top:0px;height:0px;}
+#friendsarrow2 {opacity:0;margin-left:0px;margin-right:0px;margin-top:0px;height:0px;}
+
+#introanim {transition-delay:0.1s;transition:0.3s;font-size:95px;}
+#introanim2 {transition-delay:0.1s;transition:0.3s;font-size:95px;}
+#randomSayings {text-align:center;font-size:36px;margin-left:0px;margin-top:0px;}
+
+.announcetext {font-size:20px;}
+.textone {display:none;}
+.help-tip3 {display:none;}
+}
+@media screen and (min-width: 1050px) {
+#text {width:875px !important;}
+#text3 {width:600px !important;}
+}
+
+@media screen and (max-width: 550px) {
+.cubeNew {transform:scale(1.5);}
+}
+@media screen and (max-width: 1050px) {
+#text {width:650px !important;}
+.containerHome {height:400px !important;}
+#nameHome {width:90% !important;}
+#introanim {font-size:75px;margin-top:200px!important;margin-left:-357px!important;}
+#introanim2 {font-size:75px;margin-top:-100px!important;margin-left:190px!important;}
+.containerFriends {margin-left:50px !important;margin-top:75px!important;}
+.containerGallery {margin-right:50px !important;margin-top:75px!important;}
+.containerAboutMe {margin-top:-434px !important;}
+.containerTheme {margin-top:-379px !important;transition:0s !important;}
+.containerSettings {margin-top:-479px !important;transition:0s !important;}
+}
+@media screen and (max-width: 180px) {
+.containerHome {height:400px !important;}
+#nameHome {width:90% !important;}
+#introanim {font-size:75px;margin-top:200px!important;margin-left:-357px!important;}
+#introanim2 {font-size:75px;margin-top:-100px!important;margin-left:190px!important;}
+}
+@media screen and (max-width: 1300px) {
+#nameHome {width:90% !important;}
+#randomSayings {width:90% !important;}
+}
+@media screen and (max-width: 780px) {
+#text {width:350px !important;}
+#introanim {font-size:55px;margin-top:200px!important;margin-left:0px!important;}
+#introanim2 {font-size:55px;margin-top:-20px!important;margin-left:0px!important;width:100%;}
+#randomSayings {display:none !important;}
+}
+
+@media screen and (max-width: 850px) and (max-height: 480px) {
+#introanim {margin-top:40px;}
+#introanim2 {margin-top:40px;}
+#introanim3 {margin-top:40px;}
+#introanim4 {margin-top:40px;}
+}
+
+
+
+
+@media screen and (max-width: 635px) {
+#introanim {transition-delay:0.1s;margin-left:10px;margin-top:150px;}
+#introanim2 {transition-delay:0.1s;margin-left:65px;margin-top:150px;}
+#introanim3 {transition-delay:0.1s;margin-left:10px;margin-top:190px;}
+#introanim4 {transition-delay:0.1s;margin-left:58px;margin-top:190px;}
+
+#secrettext1 {display:block;}
+#secrettext11 {display:block;}
+#text1 {display:none;}
+}
+
+@media screen and (max-height: 580px) and (max-width: 635px) {
+#introanim {margin-top:40px;}
+#introanim2 {margin-top:40px;}
+#introanim3 {margin-top:80px;}
+#introanim4 {margin-top:80px;}
+}
+
+@media screen and (max-width: 750px) {
+	#settings2 {display:none !important;}
+	.containerAbout {margin-right:16.5% !important;}
+	.containerAbout2 {margin-right:16.5% !important;}
+	#disabled-button {display:inline-block !important;}
+	#show-button4 {display:none !important;}
+	#hide-button4 {display:none !important;}
+	.help-tip3 {display:inline !important;}
+}
+@media screen and (max-width: 674px) {
+	#settings {width:405px !important;margin-left:0px !important;}
+	#load {font-size:22px !important;margin-left:3px !important;}
+	#credits {font-size:19px !important;margin-left:20px !important;width:165px !important;}
+	#quotes {font-size:19px !important;margin-left:20px !important;width:165px !important;}
+	#rng {font-size:19px !important;margin-left:20px !important;width:165px !important;}
+	#restart {font-size:19px !important;margin-left:7px !important;width:83px !important;}
+	#reset {font-size:19px !important;margin-left:7px !important;width:83px !important;}
+	#advanced {font-size:19px !important;margin-left:7px !important;width:83px !important;}
+	#btnClear2 {width:36px !important;}
+	#restarted {width:36px !important;}
+	#name-tooltip {display:none !important;}
+	#name-tooltip2 {display:none !important;}
+	#danger {font-size:22px !important; margin-left:96px !important;}
+	#btnClear3 {margin-left:0px !important;width:80px !important;}
+	#sure {font-size:10px !important;}
+	#btnClear {margin-left:-12px !important;}
+	.help-tip3 {display:none !important;}
+	
+	
+	
+	#credhid  {font-size:15px !important;margin-right:2% !important;}
+	#credshow {font-size:15px !important;margin-right:2% !important;}
+	#quotehid  {font-size:15px !important;margin-right:2% !important;}
+	#quoteshow {font-size:15px !important;margin-right:2% !important;}
+	#rnghid  {font-size:15px !important;margin-right:2% !important;}
+	#rngshow {font-size:15px !important;margin-right:2% !important;}
+	#advncdhid  {font-size:15px !important;margin-right:2% !important;}
+	#advncdshow {font-size:15px !important;margin-right:2% !important;}
+	
+	#show-button1  {width:60px !important;}
+	#hide-button1  {width:60px !important;}
+	#show-button2  {width:60px !important;}
+	#hide-button2  {width:60px !important;}
+	#show-button3  {width:60px !important;}
+	#hide-button3  {width:60px !important;}
+	#show-button4  {width:36px !important;}
+	#hide-button4  {width:36px !important;}
+}
+@media screen and (max-width: 576px) {
+	.mybanner {width:405px !important;}
+	#choconame {font-size:40px;}
+}
+
+@media screen and (max-height: 630px) and (max-width: 455px) {
+#introanim {margin-top:40px;}
+#introanim2 {margin-top:40px;}
+#introanim3 {margin-top:80px;}
+#introanim4 {margin-top:80px;}
+}
+@media screen and (max-width: 65px) {
+	#mySidenav2 {border-radius: 0px !important;transition:0s!important;}
+}
+@media screen and (max-width: 575px) {
+	.container {border-radius: 0px !important;}
+}
+
+
+@media screen and (max-width: 760px) {
+  /* UNDER 500px CSS here */
+}
+
+@media screen and (max-width:610px) {
+  /* UNDER 500px CSS here */
+#todayHTML {
+	margin-top:-50px;
+	margin-bottom:0px;
+}
+#hide-button3 { background-color: #737373;pointer-events:none; }
+#show-button3 { background-color: #737373;pointer-events:none; }
+}
+
+/*@media screen and (max-width: 320px) and (max-height:405px) {
+	#deviceTooSmall {display:block !important;}
+	#navbar {display:none !important;}
+	.about {display:none !important;}
+	.aboute {display:none !important;}
+	.home {display:none !important;}
+	.friends {display:none !important;}
+	.friende {display:none !important;}
+}
+
+@media screen and (max-width: 320px) {
+	#deviceTooSmall {display:block !important;}
+	#navbar {display:none !important;}
+	.about {display:none !important;}
+	.aboute {display:none !important;}
+	.home {display:none !important;}
+	.friends {display:none !important;}
+	.friende {display:none !important;}
+	#centerimg {display:none !important;}
+	.credits {display:none !important;}
+}
+
+/*@media screen and (max-height: 405px) {
+	#deviceTooSmall {display:block !important;}
+	#navbar {display:none !important;}
+	.about {display:none !important;}
+	.aboute {display:none !important;}
+	.home {display:none !important;}
+	.friends {display:none !important;}
+	.friende {display:none !important;}
+	#centerimg {display:none !important;}
+	.credits {display:none !important;}
+}
+
+@media screen and (max-width: 449px) {
+	.credits { top:-100%; }
+}
+
+/*@media screen and (max-height: 630px) {
+#introanim {margin-top:30px;}
+#introanim2 {margin-top:30px;}
+#introanim3 {margin-top:30px;}
+#introanim4 {margin-top:30px;}
+
+#introanim5 {margin-top:90px;}
+#introanim6 {margin-top:90px;}
+#introanim7 {margin-top:90px;}
+#introanim8 {margin-top:90px;}
+
+
+#introanim9 {margin-top:130px;}
+#introanim10 {margin-top:130px;}
+#introanim11 {margin-top:130px;}
+#introanim12 {margin-top:130px;}
+#introanim13 {margin-top:130px;}
+}

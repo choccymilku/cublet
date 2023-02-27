@@ -1,0 +1,39 @@
+
+/* swap on hover */
+.swap-on-hover {
+  position: relative;	
+	margin-top: -31px;
+	margin-left: -5px;
+	max-width: 40px;
+}
+
+.swap-on-hover .swap-on-hover__front-image {
+  z-index: 1;
+  transition:0.3s;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.swap-on-hover:hover > .swap-on-hover__back-image{
+  opacity: 1;
+   transition:0.3s;
+    cursor: pointer;
+	  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  -webkit-font-smoothing: subpixel-antialiased;
+  backface-visibility: hidden;
+  opacity:1 !important;
+}
+  
+.swap-on-hover:hover > .swap-on-hover__front-image{
+  opacity: 0;
+   transition:0.3s;
+    cursor: pointer;
+	  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  -webkit-font-smoothing: subpixel-antialiased;
+  backface-visibility: hidden;
+  
+}

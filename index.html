@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<!--info shit
+class="color6" - closest to set color-->
+<html lang="en" style="scrollbar-width: 10px;scroll-behavior: smooth;overflowX:hidden;overflow:hidden;visibility:visible;" id="htmll">
+<head>
+  <meta charset="UTF-8">
+  <title>choccy ~ certified clown</title>
+  <link rel="icon" type="image/x-icon" href="./images/icons/webicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+<!-- Primary Meta Tags -->
+<title>choccy ~ certified clown</title>
+<meta name="title" content="choccy ~ certified clown">
+<meta name="description" content="honk honk">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://choccy.dev">
+<meta property="og:title" content="choccy ~ certified clown">
+<meta property="og:description" content="honk honk">
+<meta property="og:image" content="https://i.imgur.com/SYKfYZm.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://choccy.dev">
+<meta property="twitter:title" content="choccy ~ certified clown">
+<meta property="twitter:description" content="honk honk">
+<meta property="twitter:image" content="https://i.imgur.com/SYKfYZm.png">	
+
+<!--other files-->
+	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="stylesheet" href="./styles/swap.css">
+	<link rel="stylesheet" href="./stylesheet.css">
+	<link rel="stylesheet" href="./styles/reactivenojs.css">
+	<link rel="stylesheet" href="./styles/makesstuffreactive.css">
+	<link rel="stylesheet" href="./styles/helptip.css">
+	
+<!--necessary for the username copy thingy-->
+<input style="display:none;" type="text" value="choccymilk#1233" id="discorduser">
+<input style="display:none;" type="text" value="choccymilk#1233" id="myInput">
+<!--if javascript is disabled, it will show a message-->
+<script type="text/javascript">
+document.write('<style type="text/css">.no-js { display: none; }</style>');
+</script>
+<script type="text/javascript">
+document.write('<style type="text/css">.no-js2 { display: none; }</style>');
+</script>
+<!--resets scroll position all the way to the top (might not work sometimes, i don't know what could be causing it-->
+<script>
+setTimeout(()=>{
+  history.replaceState('', document.title, window.location.origin + window.location.pathname + window.location.search);
+}, 0); // 5 millisecond timeout in this case
+</script>
+</head>
+<style>
+ /* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #272c30; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777777; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #656565; 
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.disabledrag {
+   -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+   user-drag: none;
+}
+
+.settingscolorchange2 { display:none; }
+
+.navbar-nav .active {
+  color: var(--navbar-active) !important;
+	transition: 0.2s;
+}
+
+.navbar-nav .active2 {
+  color: var(--navbar-active) !important;
+	transition: 0.2s;
+}
+.nav-link {
+  color: var(--navlink) !important;
+  transition: 0.2s;
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+
+.nav-link2 {
+  margin-top:8px;
+  padding-bottom:0rem;
+  transition: 0.2s;
+  text-decoration:none;
+}
+
+.nofunnyLoader {opacity:0;}
+
+.color-box {width:25px;height:25px;}
+#color-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+</style>
+<body class="boddy" id="thething" oncopy="return false" oncut="return false" onpaste="return false" style="transition:0s;">
+<script>
+  // Important to be 1st in the DOM
+  const theme = localStorage.getItem('theme') || 'light';
+  document.documentElement.dataset.appliedMode = theme;
+</script>
+<div id="preloader" style="z-index:100101;width:100%;height:100%;background-color:var(--background);display: flex;justify-content: center;align-items: center;">
+      <div class="logoContainer" style="transform:scale(1.35);margin-left:21px;margin-top:0px; -webkit-font-smoothing: subpixel-antialiased; transform-origin: center; backface-visibility: hidden;">
+        <div class="cube" style="	animation: spin 10s infinite linear;">
+            <div class="face front colorBorderA1" style="display:block;border:3px solid var(--text);">
+			<h1 style="transform-style:preserve-3d;backface-visibility:hidden;color:var(--text);width:143px;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+            <h1 style="transform-style:preserve-3d;backface-visibility:hidden;color:var(--text);width:143px;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+            <h1 style="transform-style:preserve-3d;backface-visibility:hidden;color:var(--text);width:143px;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+            </div>
+            <div class="face back colorBorderA2" style="display:block;border:3px solid var(--text);"><!--<img src='./images/icons/avatar.jpg' style="transform:rotate(180deg);position:absolute;filter:brightness(50%);height:143px;width:236px;"></img>-->
+			<h1 class="color-text1A" id="textOne" style="transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;transform:scale(1, -1);line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;text-rendering: optimizeLegibility;">choc</h1>
+			<h1 class="currentlySelected1 hiddenSelect" id="textOne2" style="transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;transform:scale(1, -1);line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;text-rendering: optimizeLegibility;">choc</h1>
+
+            <h1 class="color-text2A" id="textTwo" style="transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;transform:scale(1, -1);line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;text-rendering: optimizeLegibility;">choc</h1>
+			<h1 class="currentlySelected2 hiddenSelect" id="textTwo2" style="transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;transform:scale(1, -1);line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;text-rendering: optimizeLegibility;">choc</h1>
+            
+			<h1 class="color-text3A" id="textThree" style="transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;transform:scale(1, -1);line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;text-rendering: optimizeLegibility;">choc</h1>
+			<h1 class="currentlySelected3 hiddenSelect" id="textThree2" style="transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;transform:scale(1, -1);line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;text-rendering: optimizeLegibility;">choc</h1>
+			</div>
+			
+			<div id="selector" class="face back" style="height:0px;margin-top:136px;"><!--margin-top:-136px;86px;36px-->
+			<div class="colorSelector1" style="display:block;width:15px;height:3px;background-color:red;margin-left:250px;transform:rotate(-45deg);"></div>
+			<div class="colorSelector2" style="display:block;width:15px;height:3px;background-color:red;margin-left:250px;transform:rotate(45deg);margin-top:6px;"></div>
+			</div>
+			
+			<div class="face right colorBorderA3" style="display:block;border:3px solid var(--text);">
+			<h1 style="transform-style:preserve-3d;backface-visibility:hidden;color:var(--text);width:143px;transform:scale(1, -1);line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+			<h1 style="transform-style:preserve-3d;backface-visibility:hidden;color:var(--text);width:143px;transform:scale(1, -1);line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+			<h1 style="transform-style:preserve-3d;backface-visibility:hidden;color:var(--text);width:143px;transform:scale(1, -1);line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+            </div>
+			
+            <div class="face left colorBorderA4" style="z-index:100;display:block;border:3px solid var(--text);">
+			<h1 class="color-text3B" id="textSix" style="transform:rotate(180deg) scale(-1, 1);transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+			<h1 class="currentlySelected4 hiddenSelect" id="textSix2"  style="transform:rotate(180deg) scale(-1, 1);transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+
+			<h1 class="color-text2B" id="textFive" style="transform:rotate(180deg) scale(-1, 1);transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+            <h1 class="currentlySelected5 hiddenSelect" id="textFive2" style="transform:rotate(180deg) scale(-1, 1);transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+
+			<h1 class="color-text1B" id="textFour" style="transform:rotate(180deg) scale(-1, 1);transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+			<h1 class="currentlySelected6 hiddenSelect" id="textFour2" style="transform:rotate(180deg) scale(-1, 1);transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+			</div>
+			
+			<div id="selector" class="face left" style="transform:rotateX(90deg) scale(1, -1);z-index:10101;height:0px;margin-top:109px;"><!--margin-top:231px;164px;109px-->
+			<div class="colorSelector1" style="display:block;width:15px;height:3px;background-color:red;margin-left:290px;transform:rotate(-45deg);"></div>
+			<div class="colorSelector2" style="display:block;width:15px;height:3px;background-color:red;margin-left:290px;transform:rotate(45deg);margin-top:6px;"></div>
+			</div>
+			
+
+			
+            <div class="face top colorBorderA5" style="display:block;border:3px solid var(--text);">
+			<h1 style="transform-style:preserve-3d;backface-visibility:hidden;color:var(--text);width:143px;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+			<h1 style="transform-style:preserve-3d;backface-visibility:hidden;color:var(--text);width:143px;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+            <h1 style="transform-style:preserve-3d;backface-visibility:hidden;color:var(--text);width:143px;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+            </div>
+            <div class="face bottom colorBorderA6" style="display:block;border:3px solid var(--text);">
+			<h1 class="color-text3B hideText" style="transform:rotate(180deg) scale(1, -1);transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;opacity:1;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+			<h1 class="color-text2B hideText" style="transform:rotate(180deg) scale(1, -1);transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;opacity:1;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+			<h1 class="color-text1B hideText" style="transform:rotate(180deg) scale(1, -1);transform-style:preserve-3d;backface-visibility:hidden;transition:2.25s;color:var(--text);width:143px;opacity:1;line-height: 0.85;font-size: 50px;font-family:Fredoka Expanded;font-weight:1000;">choc</h1>
+            			
+			<h1 id="thankYou" style="margin-left:-7px;margin-top:4px;width:149px;font-size:18px;transform-style:preserve-3d;backface-visibility:hidden;transform:scale(-1, 1);transition:2.25s;color:var(--text);opacity:1;line-height: 0.95;font-family:Fredoka Expanded;font-weight:1000;">
+			<p class="color-text3C" style="margin-bottom:2px;font-size:18px;">made with
+			<i style="--fa-animation-duration: 10s; --fa-fade-opacity: 0.7;margin-left:2px;font-size:23px;"class="colorHeart fa-fade fa-solid fa-heart"></i></p>
+			<p class="color-text2C" style="font-size:15px;display:inline;">open source 		
+			<i onclick="openInNewTab();" style="cursor:pointer;margin-left:3px;font-size:26px;transition:0.3s;"class="colorGitHub fa-brands fa-square-github"></i></p>
+			<p class="color-text1C" style="margin-top:12px;">thank you to everyone who stayed <3 /p</p></h1>
+			</div>
+        </div>
+    </div>
+  <!--<img id="brandIcon" class="disabledrag" src="./images/icons/icon.png" style="opacity:0;width:90px;height:115px;margin-left:10px;margin-right:5px;margin-top:-8px;"></img>-->
+
+  <!--<h1 style="margin-top:370px;transition:2s;opacity:0;color:var(--text);position:absolute;font-size: 20px;font-family:Fredoka SemiExpanded;font-weight:1000;" id="loadtime"></h1>
+-->
+</div>
+
+<noscript><div class="noselect no-js2" style="color:white;animation:js 3s forwards;"></div>
+<div class="noselect no-js" style="color:white;animation:js 3s forwards;">
+<h6 style="transition: 0.3s;color:white;text-align:center;">uh oh..</h6>
+<h5 style="transition: 0.3s;color:white;margin-top:6%;">seems like javascript is disabled</h5>
+<h5 style="transition: 0.3s;color:white;margin-top:-1%;">please enable it</h5>
+<h5 style="transition: 0.3s;color:white;margin-top:3%;">don't know how? <a style="transition: 0.3s;text-shadow: 0px 0px 15px #d2d2d2 !important;font-size:px;color:white;" href="https://support.google.com/adsense/answer/12654?hl=en" target="_blank">this <i>might</i> help you.</a></h5>
+<button id="jsbtn" style="transition: 0.3s;display:block;" type="button" ><a style="text-decoration:none;color:white;" href="./index.html">continue.</a></button></div>
+<div class="no-js2"><h5></h5></div></noscript>
+
+<div id="mainPage" style="display:none;">
+<!-- Image and text -->
+<!--<nav class="navbar" style="background-color:var(--background-navbar)!important;height:120px;">
+  <a class="noselect navbar-brand" href="#">
+  	<div id="nameBrandButton" style="cursor:pointer;transition:0.05s;display:block;margin-left:5px;margin-top:2px;">
+	<h1 class="color-Brand1A" id="brandName1" style="opacity:0;transform:skew(10deg, 2.5deg);display:block;line-height: 0.65;font-size: 36px;font-family:Fredoka Expanded;font-weight:1000;">./dir/menus</h1>
+	<h1 class="color-Brand2A" id="brandName2" style="opacity:0;transform:skew(10deg, 0deg);display:block;line-height: 0.65;font-size: 36px;font-family:Fredoka Expanded;font-weight:1000;">./dir/menus</h1>
+	<h1 class="color-Brand3A" id="brandName3" style="opacity:0;transform:skew(10deg, -2.5deg);display:block;line-height: 0.65;font-size: 36px;font-family:Fredoka Expanded;font-weight:1000;">./dir/menus</h1>
+	</div>
+  </a>
+  <a class="noselect navbar-brand">
+  <img id="brandIcon" class="disabledrag" src="./images/icons/icon.png" style="opacity:0;width:90px;height:115px;margin-left:10px;margin-right:5px;margin-top:-8px;"></img>
+  </a>
+  <a>
+    <div id="settingsBrandButton" style="cursor:pointer;transition:0.05s;display:block;margin-right:8px;margin-top:2px;">
+      <h1 class="color-Brand1B" id="settingsName1" style="opacity:0;transform:skew(10deg, -2.5deg);display:block;line-height: 0.65;font-size: 36px;font-family:Fredoka Expanded;font-weight:1000;">settings\dir\.</h1>
+	  <h1 class="color-Brand2B" id="settingsName2" style="opacity:0;transform:skew(10deg, 0deg);display:block;line-height: 0.65;font-size: 36px;font-family:Fredoka Expanded;font-weight:1000;">settings\dir\.</h1>
+	  <h1 class="color-Brand3B" id="settingsName3" style="opacity:0;transform:skew(10deg, 2.5deg);display:block;line-height: 0.65;font-size: 36px;font-family:Fredoka Expanded;font-weight:1000;">settings\dir\.</h1>
+    </div>
+	</a>
+</nav>-->
+	<button id="disableRefreshButton">Disable Refresh</button>
+	<button id="enableRefreshButton">Enable Refresh</button>
+	<span id="mode" style="color:var(--text);"></span> <button id="theme-toggle">Change mode</button><br /><br />
+	<div style="display:block;">
+	  <label for="base-color">color:</label>
+<select id="base-color" style="height:50px;background-color:var(--background);">
+  <option value="" selected disabled style="font-size:0px;"></option>
+  <optgroup label="default">
+    <option value="#ff0000" style="font-size:17px;color:#ff0000;">red</option>
+    <option value="#ffa400" style="font-size:17px;color:#ffa400;">orange</option>
+    <option value="#43c300" style="font-size:17px;color:#43c300;">green</option>
+    <option value="#00edff" style="font-size:17px;color:#00edff;">cyan</option>
+    <option value="#005bff" style="font-size:17px;color:#005bff;">blue</option>
+    <option value="#8d00c9" style="font-size:17px;color:#8d00c9;">purple</option>
+    <option value="#f098a8" style="font-size:17px;color:#f098a8;">pink</option>
+  </optgroup>
+  <optgroup label="dark">
+    <option value="#7f0000" style="font-size:17px;color:#7f0000;">red</option>
+    <option value="#7f5200" style="font-size:17px;color:#7f5200;">orange</option>
+    <option value="#216100" style="font-size:17px;color:#216100;">green</option>
+    <option value="#00767f" style="font-size:17px;color:#00767f;">cyan</option>
+    <option value="#002d7f" style="font-size:17px;color:#002d7f;">blue</option>
+    <option value="#460064" style="font-size:17px;color:#460064;">purple</option>
+    <option value="#ab1833" style="font-size:17px;color:#ab1833;">pink</option>
+  </optgroup>
+  <optgroup label="light">
+    <option value="#ff7f7f" style="font-size:17px;color:#ff7f7f;">red</option>
+    <option value="#ffd17f" style="font-size:17px;color:#ffd17f;">orange</option>
+    <option value="#97ff61" style="font-size:17px;color:#97ff61;">green</option>
+    <option value="#7ff6ff" style="font-size:17px;color:#7ff6ff;">cyan</option>
+    <option value="#7fadff" style="font-size:17px;color:#7fadff;">blue</option>
+    <option value="#d064ff" style="font-size:17px;color:#d064ff;">purple</option>
+    <option value="#f7cbd3" style="font-size:17px;color:#f7cbd3;">pink</option>
+  </optgroup>
+  <optgroup label="other">
+		<option value="#561a81" style="font-size:17px;color:#561a81;">purple</option>
+		<option value="#7A67EE" style="font-size:17px;color:#7A67EE;">lavender</option>
+        <option value="#d9317a" style="font-size:17px;color:#d9317a;">wine</option>
+		<option value="#e7b0b9" style="font-size:17px;color:#e7b0b9;">quartz</option>
+		<option value="#00796b" style="font-size:17px;color:#00796b;">teal</option>
+		<option value="#30BA8F" style="font-size:17px;color:#30BA8F;">meadow</option>
+		<option value="#A1B6D4" style="font-size:17px;color:#A1B6D4;">light gray</option>
+        <option value="#455a64" style="font-size:17px;color:#455a64;">gray</option>
+	</optgroup>
+	</select>
+	<div style="display:inline;">
+      <input type="color" style="width:100px;height:50px;" id="custom-color-picker">
+    </div>
+	</div>
+  <div style="display:none;">
+  <iframe src="https://bots.trainmaster2.net/discord-user-widget/banner/USER ID" title="Discord User Widget" style="height: 100px; width: 300px; border: 0;"></iframe>
+	
+	</div>
+	
+<!--generates a color pallete--><div id="color-container"></div>
+<!--generates a color pallete--><div id="color-container2"></div>
+</div>
+<script>
+// get the select element
+const baseColorSelect = document.getElementById("base-color");
+
+// add an event listener to the select element
+baseColorSelect.addEventListener("change", function() {
+  // get the selected value
+  const selectedValue = baseColorSelect.value;
+  
+  // store the selected value in localStorage
+  localStorage.setItem("selectedValue", selectedValue);
+});
+
+// retrieve the selected value from localStorage on page load
+const storedValue = localStorage.getItem("selectedValue");
+
+// set the selected option based on the stored value
+if (storedValue) {
+  baseColorSelect.value = storedValue;
+}
+
+</script>
+<script>
+    window.addEventListener('load', function() {
+      const loadingIcon = document.querySelector('.cube');
+      const currentTransform = window.getComputedStyle(loadingIcon).getPropertyValue('transform');
+      const currentAnimationDuration = parseFloat(window.getComputedStyle(loadingIcon).getPropertyValue('animation-duration'));
+
+      loadingIcon.style.animation = 'none';
+      loadingIcon.style.transform = currentTransform;
+
+     // Start the new animation from the current position
+const keyframes = `from {
+  transform: ${currentTransform};
+}
+ to {
+  transform: rotateY(-45deg) rotateX(-45deg);
+}`;
+
+const newAnimation = document.createElement('style');
+newAnimation.textContent = `@keyframes new-animation {
+  ${keyframes}
+}`;
+
+document.head.appendChild(newAnimation);
+
+// Set the duration of the new animation to 5 seconds
+const newAnimationDuration = 2;
+
+// Hide the elements with classes "top", "right", and "front"
+document.querySelectorAll('.top, .right, .front').forEach(element => {
+  element.style.opacity = '0';
+  element.style.transition = '2.5s';
+});
+
+loadingIcon.style.animation = `new-animation ${newAnimationDuration}s ease-in-out forwards`;
+
+loadingIcon.addEventListener('animationend', function() {
+setTimeout(function() {	
+	
+    setTimeout(function() {document.getElementById('textOne').textContent = 'work';}, 1900);
+	setTimeout(function() {document.getElementById('textOne2').textContent = 'work';}, 1900);
+    setTimeout(function() {document.getElementById('textTwo').textContent = 'about';}, 1700);
+	setTimeout(function() {document.getElementById('textTwo2').textContent = 'about';}, 1700);
+    setTimeout(function() {document.getElementById('textThree').textContent = 'index';}, 1400);
+	setTimeout(function() {document.getElementById('textThree2').textContent = 'index';}, 1400);
+    setTimeout(function() {document.getElementById('textFour').textContent = 'friends';}, 2200);
+	setTimeout(function() {document.getElementById('textFour2').textContent = 'friends';}, 2200);
+	setTimeout(function() {document.getElementById('textFive').textContent = 'random';}, 2400);
+	setTimeout(function() {document.getElementById('textFive2').textContent = 'random';}, 2400);
+	setTimeout(function() {document.getElementById('textSix').textContent = 'custom';}, 2600);	
+	setTimeout(function() {document.getElementById('textSix2').textContent = 'custom';}, 2600);	
+    
+	setTimeout(function() {
+      document.querySelectorAll('.hideText').forEach(element => {
+		element.style.display = 'none';
+      });}, 2600);
+	  
+	setTimeout(function() {
+      document.querySelectorAll('#thankYou').forEach(element => {
+		element.style.display = 'block';
+      });}, 2600);
+	
+    setTimeout(function() {
+      document.querySelectorAll('#textSeven, #textEight').forEach(element => {
+        element.style.fontSize = '30px';
+		element.style.transition = '0s';
+      });
+    }, 3000);
+	
+    setTimeout(function() {
+      document.querySelectorAll('.top, .right, .front').forEach(element => {
+        element.style.display = 'none';
+		element.style.transition = '';
+      });
+      document.querySelectorAll('#textOne, #textTwo, #textThree, #textFour, #textFive, #textSix').forEach(element => {
+        element.style.transition = '1s';
+      });
+    }, 3000);
+
+    document.querySelectorAll('.bottom').forEach(element => {
+      element.style.transition = '0s';
+	  element.style.width = '149px';
+    });
+	
+	document.querySelectorAll('.logoContainer').forEach(element => {
+      element.style.marginTop = '12px';
+	  element.style.marginLeft = '17px';
+	  element.style.transition = '1.2s';
+	  element.style.width = '240px';
+    });
+	
+	document.querySelectorAll('#textOne').forEach(element => {
+	  element.style.marginLeft = '44px';});
+	document.querySelectorAll('#textTwo').forEach(element => {
+	  element.style.marginLeft = '24px';});
+	document.querySelectorAll('#textThree').forEach(element => {
+	  element.style.marginLeft = '34.5px';});
+	document.querySelectorAll('#textFour').forEach(element => {
+	  element.style.marginLeft = '5.5px';});
+	document.querySelectorAll('#textFive').forEach(element => {
+	  element.style.marginLeft = '0px';});
+	document.querySelectorAll('#textSix').forEach(element => {
+	  element.style.marginLeft = '2px';});
+}, 0);
+});
+});
+  </script>
+<!--<div id="text" style="display:none;width:60%;position: absolute;margin: auto;transition:0.3s;">
+<div class="containerHome" id="containerHome" style="display:none;transition:0.3s;z-index:10;height:500px">
+
+<div data-tilt data-tilt-reverse="true" data-tilt-transition="true"data-tilt-perspective="600" data-tilt-max="20" data-tilt-scale="1.125" id="containerAvatar" style="border-radius:50%;transition:1.5s;width:164px;height:164px;left: 0;right: 0;position: absolute;margin-left: auto;margin-right: auto;">
+	<img class="noselect disabledrag" id="avatar" style="z-index:10;position:absolute;transition:1.5s;border-radius:50%;width:164px;height:164px;border:0px;left: 0;right: 0;position: absolute;margin-left: auto;margin-right: auto;display:none;animation:transitionIn2 0.9s forwards;" src="./images/icons/avatar.jpg"></img>
+	<img class="noselect disabledrag" id="avatarLighter" style="z-index:10;position:absolute;transition:1.5s;border-radius:50%;width:164px;height:164px;border:0px;left: 0;right: 0;position: absolute;margin-left: auto;margin-right: auto;display:none;animation:transitionIn2 0.9s forwards;" src="./images/icons/avatarLighter.jpg"></img>
+	<div style="z-index:9;position:absolute;width:194px;height:194px;margin-left:-15px;margin-top:-15px;background-color:blue;border-radius:50%;"></div>
+	<div style="z-index:8;position:absolute;width:214px;height:214px;margin-top:-25px;margin-left:-25px;background-color:var(--background-home);border-radius:50%;"></div>
+	<div style="z-index:7;position:absolute;width:244px;height:244px;margin-top:-40px;margin-left:-40px;background-color:yellow;border-radius:50%;"></div>
+<div style="z-index:6;position:absolute;width:264px;height:264px;margin-top:-50px;margin-left:-50px;background-color:var(--background-home);border-radius:50%;"></div>
+</div>
+
+<div id="nameHome" style="height:100px;width:90%;margin:auto;margin-top:250px;">
+	<h1 class="noselect" id="introanim" style='margin-top:200px;margin-left:-400px;text-align:center;transition:0.3s;display:none;animation:introAnim 0.4s forwards;'>oh hi!
+	<span id="dyslexiaIntro" style="font-size:65px;font-family:OpenDyslexic3">oh hi!</span><!--font-size:65px;-->
+	
+	<!--<h1 class="noselect" id="introanim2" style='margin-top:-122px;margin-left:247px;text-align:center;transition:0.3s;display:none;animation:introAnim 0.4s forwards;'>im choccy
+	<span id="dyslexiaIntro2" style="margin-top:-86px;font-size:65px;font-family:OpenDyslexic3">im choccy</span>
+	</h1></h1>
+</div>
+	<h1 class="noselect" id="randomSayings" style='font-size:30px;width:90%;margin:auto;margin-top:20px;text-align:center;transition:0.3s;display:none;animation:introAnim 0.4s forwards;'>i swear to god if this thing fails once again..</h1>
+
+
+<div class="containerFriends" id="containerFriends" style="animation:buttonsAnim 0.4s forwards;display:none;margin-top:50px;margin-left:150px;cursor:pointer;z-index:1222;border:0px;left: 0;right: 0;position: absolute;margin-right: auto;">
+	<h1 class="noselect" id="aboutFriendsClick" style='padding-top:20px;padding-bottom:20px;transform:rotate(-3deg);margin-left:-10px;margin-top:-12px;text-align:center;transition:0.3s;font-size:50px;'>//friends</h1>
+</div>
+<div class="containerGallery" id="containerGallery" style="animation:buttonsAnim 0.4s forwards;display:none;margin-top:50px;margin-right:150px;cursor:pointer;z-index:1222;border:0px;left: 0;right: 0;position: absolute;margin-left: auto;">
+	<h1 class="noselect" id="aboutGalleryClick" style='padding-top:20px;padding-bottom:20px;margin-left:-5px;margin-top:-12px;transform:rotate(3deg);text-align:center;transition:0.3s;font-size:50px;'>//gallery</h1>
+</div>
+-->
+
+<!--<div class="containerTheme" id="containerTheme" style="animation:buttonsAnimThemes 0.4s forwards;display:none;transform:rotate(-4deg);cursor:pointer;z-index:222;z-index:10;margin-top:-405px;border:0px;left: 390px;right: 0;position: absolute;margin-left: auto;margin-right:auto;">
+	<h1 class="noselect" id="dark" style='transform:rotate(-2deg);margin-left:0px;text-align:center;font-size:30px;'>//light</h1>
+	<h1 class="noselect" id="light" style='transform:rotate(-2deg);margin-left:0px;text-align:center;font-size:30px;'>//dark</h1>
+</div>-->
+
+</div>
+</div>
+
+
+
+
+
+<div id="text3" style="width:60%;height:80%;position: absolute;margin: auto;transition:0.3s;">
+<div class="containerSettingsWindow" id="containerSettingsWindow" style="opacity:0;transition:0.3s;z-index:10;margin-top:10px;height:700px;width:700px">
+<div class="containerSettings2" id="containerSettings2" style="transition:0.3s;transform:rotate(2deg);cursor:pointer;z-index:222;z-index:10;margin-top:-35px;border:0px;left: 0;right: 0;position: absolute;margin-left: auto;margin-right:auto;">
+	<h1 class="noselect" id="settingsClickBack" style='transform:rotate(-2deg);margin-left:0px;margin-top:7px;text-align:center;'>//settings</h1>
+</div>
+<div style="margin-left:auto;margin-right:auto;">
+					<!--credits setting-->
+					<div id="preloaderMenu" style="margin-top:90px">
+					<h4 id="preloader" style="margin-left:50px;color:var(--text-color-dark);display:inline-block;">preloader:</h4>
+					<h4 id="blob-button" class="noselect" onclick="playSound2()" style="cursor:pointer;display:inline-block;margin-left:-5px;">blob</h4>
+					<h4 id="image-button" class="noselect" onclick="playSound()" style="cursor:pointer;display:inline-block;margin-left:12px;">image</h4>
+					<button style="transition:0.3s;height:5px;cursor:context-menu;border:none;background-color: var(--setings-color);display:block;"></button>
+					</div>
+					
+					<!--intro skip-->
+					<div id="introMenu" style="">
+					<h4 id="introText" style="margin-left:50px;color:var(--text-color-dark);display:inline-block;">skip intro:</h4>
+					<h4 id="intro-yes" class="noselect" onclick="playSound2()" style="cursor:pointer;display:inline-block;margin-left:-5px;color:#00f200;">yes</h4>
+					<h4 id="intro-no" class="noselect" onclick="playSound()" style="cursor:pointer;display:inline-block;margin-left:12px;color:#dc2d53;margin-left:36px;">no</h4>
+  					<button id="changesDividerHide"style="transition:0.3s;height:5px;cursor:context-menu;border:none;background-color: var(--setings-color);display:block;"></button>
+					</div>
+					
+					<!--quotes setting-->
+					<div id="dyslexiaMenu" style="">
+					<h4 id="dyslexiaText" style="margin-left:50px;color:var(--text-color-dark);display:inline-block;width:203px;">fonts:</h4>
+					<h4 class="noselect" onclick="playSound()" style="cursor:pointer;display:inline-block;color:#00f200;margin-left:0px;">schoolbell (default)</h4>
+					<h4 id="dyslexia" class="noselect" onclick="playSound()" style="cursor:pointer;display:inline;color:#dc2d53;margin-left:270px;font-family:OpenDyslexic3 !important;">dyslexic</h4>
+					<button style="transition:0.3s;height:5px;cursor:context-menu;border:none;background-color: var(--setings-color);display:block;"></button>
+					</div>
+					
+					<h6 id="tools" style="color:var(--text-color);display:inline;margin-left:80px;font-size:45px;">tools:</h6>
+					<button style="transition:0.3s;height:15px;cursor:context-menu;border:none;background-color: var(--setings-color);display:block;"></button>
+					
+					
+					<!--reset setting-->
+					<div id="resetMenu" style="">
+					<h4 style="color:var(--text-color-dark);display:inline-block;font-size:35px;width:143px;margin-right:3px;margin-left:80px;color:#fce100;" type="button" id="btnClear2">reset</h4>
+
+					<button style="color:var(--text-color-dark);height:26px;width:220px;display:inline;cursor:context-menu;display:none;border:none;margin-left:80px;background-color:var(--setting-color);" type="button" id="btnClear3"><h3 id="sure" style="margin-left:0px;margin-right:0px;color:var(--text-color-dark);font-size:35px;">are you sure?</h3></button>
+					<button style="border-radius:3px;height:30px;display:none;border:none;background-color:var(--background-home);" type="button" onclick="playSound()" id="btnClear"><h4 style="color:#00f200;font-size:30px;">yes</h4></button>
+					<button style="border-radius:3px;height:30px;margin-left:0px;display:none;border:none;background-color:var(--background-home);" type="button" onclick="playSound2()" id="btnClear4"><h4 style="color:#dc2d53;font-size:30px;">cancel</h4></button>
+					</div>
+					
+					<!--restart setting-->
+					<div id="restartMenu" style="">
+					<h4 id="restart" style="color:var(--text-color-dark);display:inline-block;font-size:35px;width:120px;margin-left:80px;">restart</h4>
+					<button id="restarted" style="border-radius:3px;color:var(--text-color-dark);display:inline;border:none;background-color:#0078d7;width:70px;" type="button" onClick="refreshPage()"><span>🔄</span></button>
+					<button style="transition:0.3s;height:25px;cursor:context-menu;border:none;background-color: var(--setings-color);display:block;"></button>
+					</div>
+					
+					<!--advanced setting-->
+					<div id="advancedMenu" style="">
+					<h4 id="advanced" style="color:var(--text-color-dark);display:inline-block;font-size:25px;width:143px;margin-right:3px;margin-left:20px;">advanced</h4>
+					<button style="border-radius:3px;width:70px;height:26px;display:inline;border:none;background-color: #dc2d53;" id="show-button5"><h4 id="advncdhid" onclick="playSound2()" style="margin-top:2px;margin-left:16px;font-size:18px;color:white;">off</h4></button>
+					<button style="border-radius:3px;width:70px;height:26px;display:inline;border:none;background-color: #16c716;" id="hide-button5"><h4 id="advncdshow" onclick="playSound()" style="margin-top:2px;margin-left:16px;font-size:18px;color:white;">on</h4></button>
+					<button style="transition:0.3s;height:15px;cursor:context-menu;border:none;background-color: var(--setings-color);display:block;"></button>
+					</div>
+					<!--misc setting-->
+					<h6 id="misc" style="color:var(--text-color);display:none;margin-left:20px;text-align:left;font-size:30px;">misc.</h6>
+					<button style="transition:0.3s;height:15px;cursor:context-menu;border:none;background-color: var(--setings-color);display:block;"></button>
+					
+					<!--bug report-->
+					<div id="bugReportMenu" style="">
+					<h4 id="bug" style="color:var(--text-color-dark);display:inline-block;font-size:25px;width:143px;margin-left:20px;margin-right:3px;">bug report</h4>
+					<button style="border-radius:3px;width:70px;height:26px;display:inline-block;border:none;background-color: #16c716;" id="show-button5"><h4 id="buggy" style="margin-top:2px;margin-left:18px;font-size:18px;color:white;">🐛</h4></button>
+					</div>
+					
+					<!--feedback-->
+					<div id="feedbackMenu" style="">
+					<h4 id="feedback" style="color:var(--text-color-dark);display:inline-block;font-size:25px;width:143px;margin-left:20px;margin-right:3px;">feedback</h4>
+					<button style="border-radius:3px;width:70px;height:26px;display:inline-block;border:none;background-color: #16c716;" id="show-button5"><h4 id="feedy" style="margin-top:2px;margin-left:17px;font-size:18px;color:white;">🔖</h4></button>
+					</div>
+					
+					<!--changelog-->
+					<div id="changelogMenu" style="">
+					<h4 id="changelog" style="color:var(--text-color-dark);display:inline-block;font-size:25px;width:143px;margin-left:20px;margin-right:3px;">changelog</h4>
+					<button style="border-radius:3px;width:70px;height:26px;display:inline-block;border:none;background-color: #16c716;" id="show-button5"><h4 id="change" style="margin-top:2px;margin-left:17px;font-size:18px;color:white;">📜</h4></button>
+					</div>
+</div>
+</div>
+</div>
+<div class="saveChanges" style="justify-content:center;align-items: center;left: 0;right: 0;position: absolute;margin: auto;">
+         <span class="noselect msg" style="color:white;">changes detected.<br> refresh for them to apply</span>
+		 <button id="restarted" style="margin-left:10px;color:var(--text-color-dark);display:inline;border:none;background-color:#dc2d53;font-size:30px;color:#28e42b;" type="button" onClick="refreshPage()"><span><i id="refreshChanges" class="fa-solid fa-arrows-rotate"></i></span></button>
+		 
+         </div>
+
+
+<div class="copiedName" style="display:flex;justify-content:center;align-items: center;left: 0;right: 0;position: absolute;margin: auto;">
+		 
+		 <span class="noselect" style="box-shadow:0px 0px 0px !important;">username copied!</span>
+		 <i class="fas fa-solid fa-download"></i>
+		 
+		 
+         </div>
+		       <div class="downloads" style="justify-content:center;align-items: center;left: 0;right: 0;position: absolute;margin: auto;">
+					
+					<a onclick="location.href='https://drive.google.com/u/2/uc?id=1F5nV8sKPXd85Ua4Q3zHaO12LcdWwfajv&export=download&confirm=t&uuid=5ff684c3-828d-48ac-8cab-d24a6d0db301'"><span id="icon" style="top: 23.5%;" class="fas fa-solid fa-download"></span></a>
+						<span class="noselect msg2">gifs only [~1.1GB]<br></span>
+					
+					<a onclick="location.href='https://drive.google.com/u/2/uc?id=1w5cbpSAkYhg7fojGVhJmAF3EdEfAjugg&export=download&confirm=t&uuid=d52f995a-92a9-4647-a105-95e1b38a16e9'"><span id="icon" class="fas fa-solid fa-download"></span></a>
+						<span class="noselect msg2">gifs & images [~1.1GB]<br></span>
+					
+					<a onclick="location.href='https://drive.google.com/u/2/uc?id=1xMMAqqHQlmnpHQO-acB-JaGmy5ZofDac&export=download'"><span id="icon" style="top: 78.5%;" class="fas fa-solid fa-download"></span></a>
+						<span class="noselect msg2">images only [~17MB]<br></span>
+
+				<div style="top:3%;right:1%;position:absolute;float:right:z-index:20020;width:40px;height:40px;"><span id="closebtn" style="left: -2.5px;color:#d60040;" id="icon2" class="fas fa-solid fa-times"></span>
+         </div> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+<script>
+$('#hide-button1, #show-button1, #hide-button2, #show-button2, #hide-button3, #show-button3, #hide-button4, #show-button4').click(function(){
+	$('.saveChanges').addClass("changesDetected");
+	$('.saveChanges').css({'display' : 'flex'});
+	$('#cog2').css({'display' : 'none'});
+	$('#mySidenav2').css({'height':'0px'});
+	$('#mySidenav3').css({'height':'0px'});
+	$('#changesDividerHide').css({'display':'none'});
+	$('#restartMenu').css({'display':'none'});
+});
+</script>
+<script>
+$('.username').click(function(){
+	$('.copiedName').addClass("show1");
+    $('.copiedName').removeClass("hide1");
+       setTimeout(function(){
+    $('.copiedName').removeClass("show1");
+    $('.copiedName').addClass("hide1");
+},2000);
+});
+</script>
+
+<script>
+$('.downloadbutton').click(function(){
+  $('.downloads').addClass("show1");
+  $('.downloads').removeClass("hide1");
+});
+  $('#closebtn').click(function(){
+    $('.downloads').removeClass("show1");
+	$('.downloads').addClass("hide1");
+});
+</script>
+<script>	
+	    function openInNewTab() {
+            window.open("https://septhiss.carrd.co/", "_blank");
+        }
+		function NewTabDannyTik() {
+            window.open("https://www.tiktok.com/@wiideletedyourmom", "_blank");
+        }
+		function ChangeLog() {
+            window.open("changelog.html", "_self");
+        }
+		
+		
+		
+		
+		
+		
+		
+		function NewTabBi() {
+            window.open("https://lgbtqia.fandom.com/wiki/Bisexual", "_blank");
+        }
+		function NewTabPronounsAny() {
+            window.open("https://en.pronouns.page/he&she&they&it", "_blank");
+        }
+		
+        function NewTab() {
+            window.open("https://discordapp.com/users/945717456163442708", "_blank");
+        }
+		
+		function NewTab1() {
+            window.open("https://www.roblox.com/users/2450458016/profile", "_blank");
+        }
+		
+		function NewTab2() {
+            window.open("https://twitter.com/choccymilkyu", "_blank");
+        }
+		
+		function NewTab3() {
+            window.open("https://www.tiktok.com/@choccymilkyu", "_blank");
+        }
+		
+		function NewTab4() {
+            window.open("https://github.com/choccymilku", "_blank");
+        }
+		
+		function NewTab5() {
+            window.open("https://en.pronouns.page/@choccymilk", "_blank");
+        }
+</script>
+  <script>
+  	$(window).load(function() {
+		// Animate loader off screen
+		$("#preloadeer").delay(6000).fadeOut(1000);
+		setTimeout(function() {
+		$('.boddy').css({'transition' : '0.3s', 'background-color' : 'var(--background)'});
+   }, 550);
+	});
+</script>
+<script>
+function randomSayings() {
+    var randomtxt = [
+		/*1*/"i do stuff on the internet",
+		/*2*/"professional men kisser",
+		/*3*/'the "funny" guy',
+		/*4*/"CEO of gay",
+		/*5*/"professional men kisser and seducer for 24 years",
+		/*6*/"your average fictional character simp",
+		/*7*/"ceo of kissing men and loving men",
+		/*8*/"i own a bodypill- 💥",
+		/*9*/'"why dont you get therapy?" im too lazy 🤣😂',
+		/*10*/"learning furry art so i can travel to burger land",
+        /*11*/"proffesional idiot",
+		/*12*/"certified clown thing.. *honk honk*",
+        /*13*/"SODA 🥤🥤🥤 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+		/*14*/"love my friends fr ong !!",
+        /*15*/"pro tip: click the arrow to continue",
+		/*16*/"i made all of this with mostly youtube tutorials",
+		/*17*/"if you see this, im still alive... hopefully",
+		/*18*/"XBOX LIV- 💥",
+		/*19*/"giving up at living 🤣😂🤣🤣😂",
+		/*20*/"your sanest discordian",
+		/*21*/"pro tip: you can scroll in the settings menu",
+		/*22*/"brought to you by windows notepad",
+		/*23*/"professionally made in notepad, the right way",
+		/*24*/"VS Studio Code? never heard of that",
+		/*25*/"craving violence",
+		/*26*/"kissing men, in a very gay way 😈😈",
+		/*27*/"pray the gay away",
+		/*28*/"i have a bisexual flag as my curtain",
+		/*29*/"your average quaver enjoyer",
+		/*30*/"sanest rythm game player",
+		/*31*/'"bruh,, i may have autism /j"',
+		/*32*/"number #1 autism haver /j",
+		/*33*/"spreading rumors on the internet",
+		/*34*/'"you little shitball" - ashy',
+		/*35*/"do doodo ododo odo ok 😊😊😊",
+		/*36*/'i still dont forgive you. /dir',
+		/*37*/'"want some soda?"',
+		/*38*/'"today is friday" STO- 🔇🔇🔇',
+		/*39*/'i love cnayd "ah yes, i love canada"',
+		/*40*/"uuhm hum u like men uhm u like kissing boys on the lips",
+		/*41*/"HAI ZACK HAIHAI!!!"];
+		/*more to come*/
+    return randomtxt[Math.floor((Math.random() * 41))];
+}
+
+document.getElementById("randomSayings").innerHTML = randomSayings();
+</script>
+<script>
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+}
+</script>
+<script>function refreshPage(){ window.location.reload(true);} </script>
+
+<script>$(document).ready(function(){$(window).scrollTop(0);});</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./scripts.js"></script>
+<script src="./localstorage.js"></script>
+<script src="./starter.js"></script>
+<script src="./pfploader.js"></script>
+<script src="./imagetilt.js"></script>
+<script src="./themes.js"></script>
+<script src="./colorGen/applyColorsElement.js"></script>
+<script src="./colorGen/applyBackgroundColorsElement.js"></script>
+<script src="./colorGen/applyTextShadowElement.js"></script>
+<script src="./colorGen/applyBorderColor.js"></script>
+<script src="./colorGen/localStorageColorGen.js"></script>
+<script src="./colorGen/colorGenerator.js"></script>
+</body>
+</html>
+<!--archived things (might be used, probably won't happen)-->
+<!--<script>
+var text = [
+"- > ------------------",
+"-- > -----------------",
+"--- > ----------------",
+"---- > ---------------",
+"----- > --------------",
+"------ > -------------",
+"------- > ------------",
+"-------- > -----------",
+"--------- > ----------",
+"---------- > ---------", 
+"----------- > --------",
+"------------ > -------",
+"------------- > ------",
+"-------------- > -----",
+"--------------- > ----",
+"---------------- > ---",
+"----------------- > --",
+"------------------ < -",
+"----------------- < --",
+"---------------- < ---",
+"--------------- < ----",
+"-------------- < -----",
+"------------- < ------",
+"------------ < -------",
+"----------- < --------",
+"---------- < ---------",
+"--------- < ----------",
+"-------- < -----------",
+"------- < ------------",
+"------ < -------------",
+"----- < --------------",
+"---- < ---------------",
+"--- < ----------------",
+"-- < -----------------",];
+var counter = 0;
+var elem = document.getElementById("changeText");
+var inst = setInterval(change, 100);
+
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+  }
+}
+</script>-->
+<!--<script>
+// Set the date we're counting down to
+var countDownDate = new Date("September 6, 2022 12:01:00").getTime();
+
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24)); 
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = "in: " + days + "d " + hours + "h " + minutes + "m ";
+  
+    
+  // If the count down is over, write some text 
+  if (distance <0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "happy bday!!!";
+  }
+},1000);
+
+</script>
+
+
+<script>
+var today = new Date();
+var day = today.getDay();
+var daylist = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+
+var todayHTML = document.getElementById("todayHTML");
+
+todayHTML.innerHTML = "it's " + daylist[day];
+</script>
+
+    <script>
+      $(document).ready(function(){
+      $(window).scroll(function(){
+        if($(window).scrollTop() > 1400){
+          $('#img2').css({
+            "opacity":"1", "pointer-events":"auto"
+          });
+        }else{
+          $('#img2').css({
+            "opacity":"0", "pointer-events":"none"
+          });
+        }
+      });
+      $('#img2').click(function(){
+        $('html').animate({scrollTop:0}, 0);
+      });
+    });
+</script>
+<script>
+function scrolldiv() {
+	var elem = document.getElementById("code");
+	elem.scrollIntoView();
+}
+</script>-->
